@@ -1,0 +1,42 @@
+object frmStatus: TfrmStatus
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'Status'
+  ClientHeight = 600
+  ClientWidth = 800
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  Position = poScreenCenter
+  StyleName = 'Windows'
+  OnCreate = FormCreate
+  TextHeight = 13
+  object lblStatus: TLabel
+    Left = 0
+    Top = 0
+    Width = 800
+    Height = 600
+    Align = alClient
+    Alignment = taCenter
+    Caption = 'Processando...'
+    Color = 3676167
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -24
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    Transparent = True
+    Layout = tlCenter
+    WordWrap = True
+    ExplicitWidth = 148
+    ExplicitHeight = 32
+  end
+end

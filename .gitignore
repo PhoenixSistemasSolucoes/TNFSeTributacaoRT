@@ -1,2 +1,3 @@
-*.json
-/Demo RT
+/Demo RT/compile.bat
+/Demo RT/*.bat
+/Demo RT/*.dcu
